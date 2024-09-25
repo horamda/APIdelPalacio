@@ -51,6 +51,8 @@ def consultar_articulos(session_id, articulo="", nroLote="", anulado="NO"):
     else:
         raise Exception("Error en la consulta de artículos:", response.text)
 
+print("termine aqui")
+
 # Función principal
 def obtener_todos_lotes_y_guardar(session_id):
     resultados_completos = []
