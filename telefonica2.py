@@ -9,6 +9,8 @@ try:
         user='ht627842_admin',
         password='Paisaje.2024*'
     )
+    
+
 
     if connection.is_connected():
         db_info = connection.get_server_info()
